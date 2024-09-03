@@ -1,0 +1,20 @@
+.Notifications {
+    border: 2px solid #e1354b;
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .Notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Notifications li[data-priority="default"] {
+    color: blue;
+  }
+  
+  .Notifications li[data-priority="urgent"] {
+    color: red;
+  }
+  
